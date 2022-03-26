@@ -11,7 +11,7 @@ The easiest way to run the code is to simply install the requirements with `pip 
 ## Changes made from the original
 
 ### Updated draw_grid()
-`draw_grid()` was updated to only call pygame.draw.rect a single time by setting the rect dimensions and using the condition to set the color to active or inactive ahead of time.
+`draw_grid()` was updated to only call `pygame.draw.rect()` a single time by setting the rect dimensions and using the condition to set the color to active or inactive ahead of time.
 
 ### Updated update_cells()
 I added a new method to determine the number of alive neighbors:
